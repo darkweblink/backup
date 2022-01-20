@@ -1,0 +1,50 @@
+win8 + vmware + windbg 双机调试 
+
+bcdedit /set {bootmgr} bootdebug off
+bcdedit /set {bootmgr} debugtype serial
+bcdedit /set {bootmgr} debugport com2
+bcdedit /set {bootmgr} baudrate 115200
+
+bcdedit /set {current} bootdebug on
+bcdedit /set {current} debugtype serial
+bcdedit /set {current} debugport com2
+bcdedit /set {current} baudrate 115200
+
+优化选项：
+#pragma comment(lib,"kernel32.lib")
+#pragma comment(lib,"user32.lib")
+#pragma comment(linker, "/SUBSYSTEM:windows")
+#pragma comment(linker, "/OPT:NOWIN98")
+#pragma comment(linker, "/ENTRY:DllMain")
+
+同时取消GS安全检查
+
+
+ida+vmware:
+debugStub.listen.guest32.remote = "TRUE"
+debugStub.listen.guest64.remote = "TRUE"
+monitor.debugOnStartGuest32 = "TRUE"
+debugStub.hideBreakpoints = "TRUE"
+bios.bootDelay = "3000"
+
+windows逆向记录：
+下断线的内存地址：
+win7:
+MEMORY:7e7a
+(load data)MEMORY:9F492
+MEMORY:9F4D0 //core16_starup
+;// Setting execution break on OSLoader entry (NT5 only)
+;// Ntldr always locates OSLoader.exe at 400000h. The entry point of OSLoader is always 401000h.
+	mov eax, 401000h
+	mov dr2, eax
+    
+ winload.exe 魔数： 0e0000012h
+ 
+41 B8 12 00 00 E0                             mov     r8d, 0E0000012h
+41 B8 12 00 00 E0                             mov     r8d, 0E0000012h
+41 B8 12 00 00 E0                                            mov     r8d, 0E0000012h
+41 B8 12 00 00 E0                             mov     r8d, 0E0000012h
+ 
+
+
+
