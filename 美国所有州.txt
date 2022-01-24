@@ -1,0 +1,8 @@
+怀俄明州（Wyoming），伊利诺州（Illinois），印第安纳州（Indiana），爱荷华州（Iowa），堪萨斯州（Kansas），爱德荷州（Idaho），肯塔基州（Kentucky），路易斯安那州（Louisiana），缅因州（Maine），麻萨诸塞州（Massachusetts）
+P2：马里兰州（Maryland），密西根州（Michigan），明尼苏达州（Minnesota），密西西比州（Mississippi），密苏里州（Missouri），蒙大拿州（Montana），内布拉斯加州（Nebraska），内华达州（Nevada），新罕布什尔州（New Hampshire）
+P3：纽泽西州（New Jersey），新墨西哥州（New Mexico），纽约州（New York），北卡罗莱纳州（North Carolina），北达科他州（North Dakota），俄亥俄州（Ohio），奥克拉荷马州（Oklahoma），奥勒冈州（Oregon），宾夕法尼亚州（Pennsylvania），罗德岛州（Rhode Island）
+P4：南卡罗莱纳州（South Carolina），南达科他州（South Dakota），田纳西州（Tennessee），德克萨斯州（Texas），犹他州（Utah），佛蒙特州（Vermont），维吉尼亚州（Virginia），华盛顿州（Washington D. C.），西维吉尼亚州（West Virginia），威斯康辛州（Wisconsin）
+P5：阿拉巴马州（Alabama），阿拉斯加州（Alaska），亚利桑那州（Arizona），阿肯色州 （Arkansas），加利福尼亚州（California），科罗拉多州（Colorado），康涅狄格州 （Connecticut），特拉华州（Delaware），乔治亚州（Georgia），佛罗里达州（Florida）
+P6：夏威夷州（Hawaii），华盛顿（Washington, D.C）/ 哥伦比亚特区（District of Columbia），纽约(New York)，旧金山(San Francisco)，休斯敦(Houston)，西雅图(Seattle)，坦帕(Tampa)，杰克逊维尔(Jacksonville)，印第安纳波利斯(Indianapolis)，费尔班克斯(Fairbanks)
+P7：菲尼克斯(Phoenix)，奥马哈(Omaha)，丹佛(Denver)，诺福克(Norfolk)，纽瓦克(Newark)，克利夫兰(Cleveland)，布法罗(Buffalo)，密尔沃基(Milwaukee)，巴尔的摩(Baltimore)，安纳波利斯(Annapolis)，奥尔巴尼(Albany)，盐湖城(Salt Lake City)，萨克拉门托(Sacramento)，圣迭戈(San Diego)，圣何塞(San Jose)，圣保罗(Saint Paul)，圣路易斯(Saint Louis)，火奴鲁鲁(Honolulu)，堪萨斯城(Kansas City)，珍珠港(Pearl harbor)，匹兹堡(Pittsburgh)，费城(Philidelphia)，底特律(Detroit)，达拉斯(Dallas)，哥伦布(Columbus)，新奥尔良(New Orleaans)，辛辛那提(Cincinnati)，波士顿(Boston)，伯明翰(Birmingham)，迈阿密(Miami)，洛杉矶(Los Angeles)，亚特兰大(Atlanta)，拉斯维加斯(Las Vegas)，长岛(Long Island)
+
