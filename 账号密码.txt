@@ -1,8 +1,4 @@
-thinkphp 关键词: 
-title:"系统发生错误" 
-"十年磨一剑-为API开发设计的高性能框架"
-"/admin/login/index"
-"共享设备管理系统" 
+
 
 ============杂项==================
 aliyun   ggininde@protonmail.com   4Ewy5ttSx5CR
@@ -49,12 +45,34 @@ m522cr7qoz@buy-blog.com 4Ewy5ttSx5CR 9cd9263B-C196-3dAC8-29FD-0A85dF06110
 jms_fire@163.com  Bobby56372629 2791Ee2D-2499-8142E-8D61-D0611a674dd
 
 ==================邮箱========================
+
+login.live.com(outlook 好像不用手机号注册)
+****************测试用邮箱****************
+kakatest001@outlook.com  4Ewy5ttSx5CR 测试用   
+kakatest002@outlook.com  4Ewy5ttSx5CR 测试用 
+coolshit001@outlook.com  4Ewy5ttSx5CR 测试用 
+****************正式邮箱****************
+letgo156982@outlook.com 4Ewy5ttSx5CR
+eternity364985@outlook.com 4Ewy5ttSx5CR
+destiny569723@outlook.com 4Ewy5ttSx5CR
+
+****************邮件正文****************
+
+Send a copy of the employee position table to this mailbox of mine
+
+
 kaka56372629@163.com bobby56372629
 shitonyourhead@protonmail.com   njynyg1hdxwn
 ggininde@protonmail.com   4Ewy5ttSx5CR
 safechatapp@protonmail.com  4Ewy5ttSx5CR www.000webhost.com
 kakatest001@mail.com 4Ewy5ttSx5CR 
 jmsfire@mail.com  bobby56372629  jms_fire@163.com  What city were you born in? yaan
+
+56372629@qq.com,bobby1983513
+jms_fire@163.com,bobby1983513
+jmsfire@163.com,56372629
+460486056@qq.com,bobby111111
+2046574452@qq.com,bobby111111
 
 ==================数字货币==========================
 收款地址:19eQo311UmDpoiEpk2z54QC4pXGfL1VPNV
