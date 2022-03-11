@@ -1,6 +1,7 @@
 1.勒索软件
 2.裸聊骗人
 3. ddos
+   a.当DDOS成功后，寻找筛选：1.国内的 2.能正常支付的 3.网络的  4.暴利的 5.能用DDOS统一的 生意，然后测试
 4.利用DDOS统一迷信自动大赏结缘费系统市场
 5.vaccination card database service
 6.双倍btc回馈活动，骗
