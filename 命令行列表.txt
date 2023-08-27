@@ -1,4 +1,4 @@
-win8 + vmware + windbg Ë«»úµ÷ÊÔ 
+win8 + vmware + windbg åŒæœºè°ƒè¯• 
 
 bcdedit /set {bootmgr} bootdebug off
 bcdedit /set {bootmgr} debugtype serial
@@ -10,14 +10,14 @@ bcdedit /set {current} debugtype serial
 bcdedit /set {current} debugport com2
 bcdedit /set {current} baudrate 115200
 
-ÓÅ»¯Ñ¡Ïî£º
+ä¼˜åŒ–é€‰é¡¹ï¼š
 #pragma comment(lib,"kernel32.lib")
 #pragma comment(lib,"user32.lib")
 #pragma comment(linker, "/SUBSYSTEM:windows")
 #pragma comment(linker, "/OPT:NOWIN98")
 #pragma comment(linker, "/ENTRY:DllMain")
 
-Í¬Ê±È¡ÏûGS°²È«¼ì²é
+åŒæ—¶å–æ¶ˆGSå®‰å…¨æ£€æŸ¥
 
 
 ida+vmware:
@@ -27,8 +27,8 @@ monitor.debugOnStartGuest32 = "TRUE"
 debugStub.hideBreakpoints = "TRUE"
 bios.bootDelay = "3000"
 
-windowsÄæÏò¼ÇÂ¼£º
-ÏÂ¶ÏÏßµÄÄÚ´æµØÖ·£º
+windowsé€†å‘è®°å½•ï¼š
+ä¸‹æ–­çº¿çš„å†…å­˜åœ°å€ï¼š
 win7:
 MEMORY:7e7a
 (load data)MEMORY:9F492
@@ -38,12 +38,13 @@ MEMORY:9F4D0 //core16_starup
 	mov eax, 401000h
 	mov dr2, eax
     
- winload.exe Ä§Êı£º 0e0000012h
+ winload.exe é­”æ•°ï¼š 0e0000012h
  
 41 B8 12 00 00 E0                             mov     r8d, 0E0000012h
 41 B8 12 00 00 E0                             mov     r8d, 0E0000012h
 41 B8 12 00 00 E0                                            mov     r8d, 0E0000012h
 41 B8 12 00 00 E0                             mov     r8d, 0E0000012h
+43 B8 12 00 00 E0                             mov     r2d, 0E0000012h
  
 
 
