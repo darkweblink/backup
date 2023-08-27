@@ -2,7 +2,7 @@
 
 #### 介绍
 网关服务，支持get、post请求，接口统计、授权识别等
-Gateway service, support get, post request, interface statistics, authorization identification, etc.
+Backup gateway service, support get, post request, interface statistics, authorization identification, etc.
 
 #### 软件架构
 软件架构说明
