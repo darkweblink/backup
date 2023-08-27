@@ -1,4 +1,4 @@
-# backup gatway server for personal study use
+# backup gateway server for personal study use
 
 #### 介绍
 网关服务，支持get、post请求，接口统计、授权识别等
