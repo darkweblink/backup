@@ -1,7 +1,8 @@
-# gatway
+# backup gatway server for personal study use
 
 #### 介绍
 网关服务，支持get、post请求，接口统计、授权识别等
+Gateway service, support get, post request, interface statistics, authorization identification, etc.
 
 #### 软件架构
 软件架构说明
@@ -29,10 +30,4 @@
 3. 本程序的配置文件均属于数据库内配置，所以入口配置中仅保留redis配置和数据库配置
 4. 本程序使用了redis作为主数据存储，数据库内容仅在启动时扫描一遍，所以使用时请注意不要随意关闭redis库
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
 
